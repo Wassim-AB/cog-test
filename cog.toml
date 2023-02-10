@@ -1,0 +1,5 @@
+ignore_merge_commits = true
+
+[packages]
+jenkins = { path = "jenkins", changelog_path = "jenkins/CHANGELOG.md", public_api = false }
+thumbor = { path = "thumbor", changelog_path = "thumbor/CHANGELOG.md", public_api = false }
